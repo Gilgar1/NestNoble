@@ -53,12 +53,34 @@
             </div>
             <form action="" enctype="multipart/form-data">
                 <input type="text" placeholder="Title">
-                <textarea rows="4" placeholder="Description" ?></textarea>
-                <button type="submit" class="btn">Add Category</button>
+                <select>
+                    <option value="">Local MI</option>
+                    <option value="">B&S</option>
+                    <option value="">Home I</option>
+                    <option value="">invest</option>
+                    <option value="">C&L</option>
+                    <option value="">Kegal</option>
+                </select>
 
+
+                <textarea rows="10" placeholder="Body" ?></textarea>
+                
+
+        <div class="form__control"inline>
+            <input type="checkbox" id="is_featured">
+            <label form="is_featured" chrced>Featured</label>
+        </div>
+        <div class="form" __control> 
+            <label form="thumbnail">Add Thumbnail</label>
+            <input type="file" id="thumbnail">
+        </div>
+        <button type="submit" class="btn">Add Post</button>
             </form>
         </div>
     </section>
+
+
+
 
     <footer>
         <div class="footer__socials">
