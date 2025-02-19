@@ -435,7 +435,7 @@ form {
     gap: 0.6rem;
 }
 
-.form__control.inline{
+.form__control inline {
     flex-direction: row;
     align-items: center;
 }
@@ -451,6 +451,7 @@ input, textarea, select {
 .form__section small {
     margin-top: 1rem;
     display: block;
+
 }
 
 .form__section small a {
